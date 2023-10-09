@@ -1,3 +1,54 @@
+<SCRIPT language=JavaScript> 
 
+ 
+function password() { 
+ 
+var testV = 1; 
+ 
+var pass1 = prompt('Please Enter visit code:',''); 
+ 
+while (testV < 3) { 
+ 
+if (!pass1) 
+ 
+history.go(-1); 
+ 
+if (pass1 == "MOSS550Wdon'tlikefutejia") { 
+ 
+alert('visit code is correct！'); 
+
+
+ 
+break; 
+ 
+} 
+
+if (pass1 == "MOSS不喜欢伏特加") { 
+ 
+alert('访问码正确！'); 
+
+
+ 
+break; 
+ 
+} 
+ 
+testV+=-1; 
+ 
+var pass1 = prompt('visit code is incorrect, please re-enter！'); 
+ 
+} 
+ 
+if (pass1!="password" & testV ==3) 
+ 
+history.go(-1); 
+ 
+return " "; 
+ 
+} 
+ 
+document.write(password()); 
+
+</SCRIPT>
     ZHPE下载站1.0<br>files<br>
     <a href="./ZHPE1.0.ISO" >zhpe 1.0 DEV</a>
